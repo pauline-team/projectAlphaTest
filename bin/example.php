@@ -1,4 +1,5 @@
 #!/usr/bin/env php
 <?php
 
-$PhpProject = new PhpProject("SonarProject",["./compo"]); 
+
+$PhpProject = new PhpProject("SonarProject",["./compo"]);

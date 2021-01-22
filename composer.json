@@ -1,0 +1,22 @@
+{
+    "name": "project/alpha-test",
+    "description": "Testing SonarCloud",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php" : "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Project\\ProjectAlphaTest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "projectAlphaTest\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3.8"
+    }
+}
